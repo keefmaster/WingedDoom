@@ -112,7 +112,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Yoba 100%
+  m_Text: 0%
 --- !u!114 &11492128
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -206,7 +206,7 @@ RectTransform:
   m_GameObject: {fileID: 102428}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: .460376203, y: .0859713927, z: 1.11606002}
+  m_LocalScale: {x: 0, y: .0859713927, z: 1.11606002}
   m_Children: []
   m_Father: {fileID: 22417760}
   m_RootOrder: 0
