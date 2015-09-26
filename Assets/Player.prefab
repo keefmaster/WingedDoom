@@ -179,7 +179,7 @@ Transform:
   m_Children:
   - {fileID: 475874}
   m_Father: {fileID: 450960}
-  m_RootOrder: 2
+  m_RootOrder: 4
 --- !u!4 &411808
 Transform:
   m_ObjectHideFlags: 1
@@ -203,7 +203,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 450960}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!4 &450960
 Transform:
   m_ObjectHideFlags: 1
@@ -211,14 +211,14 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 164666}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .0900000036, y: 2.01999998, z: 0}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1.77153289, y: 1.77153039, z: 1}
   m_Children:
   - {fileID: 480738}
   - {fileID: 411808}
-  - {fileID: 409108}
   - {fileID: 436968}
   - {fileID: 475580}
+  - {fileID: 409108}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &471754
@@ -246,7 +246,7 @@ Transform:
   - {fileID: 471754}
   - {fileID: 405870}
   m_Father: {fileID: 450960}
-  m_RootOrder: 4
+  m_RootOrder: 3
 --- !u!4 &475874
 Transform:
   m_ObjectHideFlags: 1
@@ -414,13 +414,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 164666}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a00eacafb99ecd45b70647bff6cb5e8, type: 3}
+  m_Script: {fileID: 11500000, guid: 66ee0f1d469c87d47806e41b3fa1e059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerStats:
-    Health: 100
-    numberofLives: 3
+  stats:
+    maxHealth: 100
   fallBoundary: -20
+  statusIndicator: {fileID: 0}
 --- !u!114 &11473994
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -455,13 +455,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1c391c62ab0d4f41ac31d0d0af3e4da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireRate: 0
+  fireRate: 3
   Damage: 10
   whatToHit:
     serializedVersion: 2
     m_Bits: 0
   BulletTrailPrefab: {fileID: 483576, guid: 6b323c934aacb324daa6d5ecf273ab20, type: 2}
   MuzzleFlashPrefab: {fileID: 459042, guid: 490e4b708c24b9841950576f7c6d9884, type: 2}
+  HitPrefab: {fileID: 0}
   effectSpawnRate: 10
 --- !u!114 &11496376
 MonoBehaviour:
