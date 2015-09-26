@@ -1,0 +1,94 @@
+Initialize engine version: 5.0.0f4 (5b98b70ebeb9)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 460  (ID=0xe22)
+    Vendor:   NVIDIA
+    VRAM:     979 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\peka\noooo\unity\doomtest\winged-doom\built\wingedDoom0.0.1.0_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\peka\noooo\unity\doomtest\winged-doom\built\wingedDoom0.0.1.0_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\peka\noooo\unity\doomtest\winged-doom\built\wingedDoom0.0.1.0_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\peka\noooo\unity\doomtest\winged-doom\built\wingedDoom0.0.1.0_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\peka\noooo\unity\doomtest\winged-doom\built\wingedDoom0.0.1.0_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\peka\noooo\unity\doomtest\winged-doom\built\wingedDoom0.0.1.0_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\peka\noooo\unity\doomtest\winged-doom\built\wingedDoom0.0.1.0_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\peka\noooo\unity\doomtest\winged-doom\built\wingedDoom0.0.1.0_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\peka\noooo\unity\doomtest\winged-doom\built\wingedDoom0.0.1.0_Data\Managed\Pathfinding.Ionic.Zip.Reduced.dll (this message is harmless)
+Loading D:\peka\noooo\unity\doomtest\winged-doom\built\wingedDoom0.0.1.0_Data\Managed\Pathfinding.Ionic.Zip.Reduced.dll into Unity Child Domain
+Platform assembly: D:\peka\noooo\unity\doomtest\winged-doom\built\wingedDoom0.0.1.0_Data\Managed\Pathfinding.JsonFx.dll (this message is harmless)
+Loading D:\peka\noooo\unity\doomtest\winged-doom\built\wingedDoom0.0.1.0_Data\Managed\Pathfinding.JsonFx.dll into Unity Child Domain
+- Completed reload, in  0.047 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: D:\peka\noooo\unity\doomtest\winged-doom\built\wingedDoom0.0.1.0_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\peka\noooo\unity\doomtest\winged-doom\built\wingedDoom0.0.1.0_Data\Managed\System.dll (this message is harmless)
+No camera shake referenced in GameMaster
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Canceled path because a new one was requested.
+This happens when a new path is requested from the seeker when one was already being calculated.
+For example if a unit got a new order, you might request a new path directly instead of waiting for the now invalid path to be calculated. Which is probably what you want.
+If you are getting this a lot, you might want to consider how you are scheduling path requests.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Collision detected Player
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+End of path reached.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+End of path reached.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+End of path reached.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+End of path reached.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+End of path reached.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+End of path reached.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+End of path reached.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+End of path reached.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+End of path reached.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+End of path reached.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+End of path reached.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Collision detected Player
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Yoba got you for15dmg
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
