@@ -47,6 +47,10 @@ public class Player : MonoBehaviour {
 	}
 
 	public void DamagePlayer (int damage) {
+
+		Debug.LogWarning("Yoba got you for" + damage + "dmg");
+
+
 		stats.curHealth -= damage;
 		if (stats.curHealth <= 0)
 		{

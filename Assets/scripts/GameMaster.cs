@@ -49,7 +49,7 @@ public class GameMaster : MonoBehaviour {
 	{
 		GameObject _clone = Instantiate(_enemy.deathParticles, _enemy.transform.position, Quaternion.identity) as GameObject;
 		Destroy(_clone, 5f);
-		cameraShake.Shake(_enemy.shakeAmt, _enemy.shakeLength);
+	//	cameraShake.Shake(_enemy.shakeAmt, _enemy.shakeLength);
 		Destroy(_enemy.gameObject);
 	}
 

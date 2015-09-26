@@ -49,6 +49,7 @@ public class Enemy : MonoBehaviour {
 	}
 	
 	public void DamageEnemy (int damage) {
+
 		stats.curHealth -= damage;
 		if (stats.curHealth <= 0)
 		{
@@ -63,11 +64,14 @@ public class Enemy : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D _colInfo)
 	{
+		Debug.Log("Collision detected " + _colInfo.gameObject.name);
 		Player _player = _colInfo.collider.GetComponent<Player>();
+		//Player _player = GameObject.FindGameObjectWithTag ("Player") as Player;
 		if (_player != null)
 		{
 			_player.DamagePlayer(stats.damage);
 			DamageEnemy(9999999);
 		}
+
 	}
 }
