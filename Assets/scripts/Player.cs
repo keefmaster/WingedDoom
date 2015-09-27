@@ -4,8 +4,16 @@ using System.Collections;
 public class Player : MonoBehaviour {
 
 	[System.Serializable]
+/*	
+	public void addOnekill(){
+		stats.killscore++;
+
+	}
+
+*/
 	public class PlayerStats {
 		public int maxHealth = 100;
+		public int killscore = 0;
 
 		private int _curHealth;
 		public int curHealth
@@ -38,12 +46,20 @@ public class Player : MonoBehaviour {
 		else
 		{
 			statusIndicator.SetHealth(stats.curHealth, stats.maxHealth);
+
 		}
+	}
+
+	public void setKillScore (int score) {
+		stats.killscore = score;
+		Debug.Log ("Player knows" + score);
+		//statusIndicator.SetKillScore(stats.killscore);
 	}
 
 	void Update () {
 		if (transform.position.y <= fallBoundary)
 			DamagePlayer (9999999);
+			
 	}
 
 	public void DamagePlayer (int damage) {
@@ -57,7 +73,7 @@ public class Player : MonoBehaviour {
 			GameMaster.KillPlayer(this);
 		}
 
-		statusIndicator.SetHealth(stats.curHealth, stats.maxHealth);
+
 	}
 
 }
