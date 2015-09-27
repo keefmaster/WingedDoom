@@ -6,11 +6,16 @@ using UnityStandardAssets.ImageEffects;
 public class GameMaster : MonoBehaviour {
 
 	public static GameMaster gm;
+	public static Player pl;
 
 	void Awake () {
 		if (gm == null) {
 			gm = GameObject.FindGameObjectWithTag ("GM").GetComponent<GameMaster>();
 		}
+
+		if (pl == null) 
+			pl = GameObject.FindGameObjectWithTag ("Player").GetComponent<Player>();
+
 	}
 
 	public Transform playerPrefab;
@@ -19,6 +24,7 @@ public class GameMaster : MonoBehaviour {
 	public Transform enemySpawnPoint;
 	public float spawnDelay = 2;
 	public Transform spawnPrefab;
+	public int score = 0;
 
 	public CameraShake cameraShake;
 
@@ -58,6 +64,10 @@ public class GameMaster : MonoBehaviour {
 	}
 
 	public static void KillEnemy (Enemy enemy) {
+		gm.score++;
+		pl.setKillScore (gm.score);
+
+		Debug.Log ("Score is: " + gm.score);
 		gm._KillEnemy(enemy);
 		gm.StartCoroutine (gm._RespawnEnemy ());
 

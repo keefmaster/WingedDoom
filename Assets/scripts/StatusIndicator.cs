@@ -7,6 +7,8 @@ public class StatusIndicator : MonoBehaviour {
 	private RectTransform healthBarRect;
 	[SerializeField]
 	private Text healthText;
+	[SerializeField]
+	private Text killScore;
 
 	void Start()
 	{
@@ -18,6 +20,10 @@ public class StatusIndicator : MonoBehaviour {
 		{
 			Debug.LogError("STATUS INDICATOR: No health text object referenced!");
 		}
+	}
+
+	public void SetKillScore (int score){
+		killScore.text = "Score: " + score +" Kills";
 	}
 
 	public void SetHealth(int _cur, int _max)

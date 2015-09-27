@@ -53,7 +53,10 @@ public class Enemy : MonoBehaviour {
 		stats.curHealth -= damage;
 		if (stats.curHealth <= 0)
 		{
+
 			GameMaster.KillEnemy (this);
+
+//			Player.addOnekill();
 		}
 
 		if (statusIndicator != null)
