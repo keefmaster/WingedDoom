@@ -61,9 +61,9 @@ public class GameMaster : MonoBehaviour {
     {
         //GetComponent<AudioSource>().Play ();
         yield return new WaitForSeconds(spawnDelay);
-//        Instantiate(vatnikPrefab, vatnikSpawnPoint.position, vatnikSpawnPoint.rotation);
-        //GameObject clone = Instantiate(vatnikPrefab, vatnikSpawnPoint.position, vatnikSpawnPoint.rotation) as GameObject;
-        //Destroy(clone, 3f);
+        Instantiate(vatnikPrefab, vatnikSpawnPoint.position, vatnikSpawnPoint.rotation);
+        GameObject clone = Instantiate(vatnikPrefab, vatnikSpawnPoint.position, vatnikSpawnPoint.rotation) as GameObject;
+        Destroy(clone, 3f);
     }
 
 
